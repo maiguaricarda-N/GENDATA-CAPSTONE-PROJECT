@@ -151,3 +151,7 @@ Key Features
 CarePulse is a centralized database for managing urgent care operations. It connects patients, doctors, clinics, appointments, diagnoses, and prescriptions while supporting doctor referrals and scheduling controls.
 
 Its structured design and data organization features improve consistency, reduce duplication, and provide a foundation for future features such as billing, insurance, laboratory results, and reporting.
+
+"Erd Diagram"
+![Link]()
+
