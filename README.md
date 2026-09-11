@@ -1,30 +1,35 @@
-Carepulse — Patient & Clinic Scheduling System
+CAREPULSE - PATIENT & CLINIC SCHEDULING SYSTEM
+
 
 PROJECT OVERVIEW
+
 CarePulse is a database system for managing patients, doctors, clinics, appointments, diagnoses, prescriptions, and doctor referrals across urgent care clinics.
 It follows Entity-Relationship Modeling principles and supports organized healthcare data management.
 
  Business Background
+ 
 CarePulse manages:
-	Clinics and locations
-	Patient registration
-	Doctors and specialties
-	Doctor referrals
-	Appointments
-	Diagnoses
-	Prescriptions
-	Data organization
+.	Clinics and locations
+.	Patient registration
+.	Doctors and specialties
+.Doctor referrals
+.Appointments
+.Diagnoses
+.Prescriptions
+.	Data organization
 Appointments connect a patient, doctor, and clinic.
 
- Problem Statement
+PROBLEM STATEMENT
+
 Managing healthcare records separately can cause duplicate data, scheduling conflicts, inconsistent records, weak referral tracking, and difficulty linking diagnoses and prescriptions to appointments.
 CarePulse provides a centralized system to organize these records and maintain reliable connections between related information.
 
-Project Objective
+PROJECT OBJECTIVE
 
 The main objective is to manage patients, clinics, doctors, appointments, diagnoses, prescriptions, and referrals while maintaining organized healthcare records.
 
 Specific goals include
+
 	Store clinic and patient information.
 	Manage doctors, specialties, licenses, and clinic assignments.
 	Track doctor-to-doctor referrals.
@@ -35,6 +40,7 @@ Specific goals include
 
 
  System Requirements
+ 
 Clinic
 Stores:
 - Clinic information
@@ -45,6 +51,7 @@ Stores:
 - Operating hours
 
 Patient
+
 Stores:
 - Patient information
 - National ID
@@ -56,6 +63,7 @@ Stores:
 
 
 Doctor
+
 Stores:
 - Doctor information
 - NPI
@@ -67,6 +75,7 @@ Stores:
 
 
 Appointment
+
 Stores:
 - Appointment information
 - Date and time
@@ -78,6 +87,7 @@ It represents:
 Patient + Doctor + Clinic
 
 Diagnosis
+
 Stores diagnoses linked to appointments. One appointment can have multiple diagnoses.
 
 Prescription
@@ -96,6 +106,7 @@ Appointments connect patients, doctors, and clinics. Diagnoses and prescriptions
 The "Doctor" entity also contains referral information that allows one doctor to refer a patient or case to another doctor.
 
 Appointment Information
+
 An appointment contains information about:
 - Patient
 - Doctor
