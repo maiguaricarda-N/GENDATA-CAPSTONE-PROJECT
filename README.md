@@ -152,6 +152,7 @@ CarePulse is a centralized database for managing urgent care operations. It conn
 
 Its structured design and data organization features improve consistency, reduce duplication, and provide a foundation for future features such as billing, insurance, laboratory results, and reporting.
 
-"Erd Diagram"
-![Link]()
+   ![ERD Diagram](<img width="3744" height="1608" alt="erdplus CARE_PULSE Diagram" src="https://github.com/user-attachments/assets/c0e8c169-4cb8-4b49-82ee-272bb314f0ec" />)
+   
+
 
